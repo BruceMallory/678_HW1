@@ -51,6 +51,8 @@ Graph a scatterplot of the data and the regression line. This is the best-fit li
 Take the election forecasting model and simplify  it by creating a binary predictor defined as x = 0 if income growth is less than 2% and x = 1 if  income growth is more than 2%. 
 
 ```{r}
+hibbs <- read.table("hibbs.dat", header=T) 
+head(hibbs)
 ```
 
 ### 7.6a

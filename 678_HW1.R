@@ -198,5 +198,6 @@ abline(yhat2, col="blue")
 yhat$coefficients
 yhat2$coefficients
 #Still no!  ugh.
+
 #----------
 #Exercise 10.1
